@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 2em;
+}
+
+header {
+    background-color: #262D63;
+    position: fixed;
+    width: 100%;
+}
+
+header #logo {
+    display: inline-block;
+    width: 118px;
+    height: 65px;
+    margin: 0 auto;
+}
+
+.background-img{
+    background-image: url(../img/img.png);
+    background-repeat: no-repeat;
+}
+
+#logo{
+    background-position: 0px 11px;
+}
+
+.content{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+#nav-bar {
+    background-color:#262D63;
+    height: 78px;
+}
+
+#nav-bar ul {
+    width: 75%;
+    float: right;
+}
+
+#nav-bar li {
+    float: left;
+    text-align: center;
+    list-style-type: none;
+    width: 25%;
+}
+
+#nav-bar li a {
+    color: #fff;
+    padding: 23px 0px;
+    margin: 0 0 0 0;
+    display: block;
+    text-decoration: none;
+}
+
+#nav-bar li a:hover{
+    background-color: #2F387B;
+}
+
+.container{
+    margin: 0 10% 0 10%;
+    padding-top: 92px;
+    margin-bottom: 30px;
+}
+
+.tx-center{
+    text-align: center;
+}
+
+@media screen and (max-width:928px) {
+    header #logo {
+        display: block;
+        margin: 6px auto 3px;
+    }
+
+    #nav-bar{
+        height: 146px;
+    }
+
+    #nav-bar ul, .content{
+        width: 100%;
+    }
+
+    .container{
+        padding-top: 160px;
+    }
+
+}
+
+footer{
+    background-color: #262D63;
+    padding: 15px;
+    color: #fff;
+}
